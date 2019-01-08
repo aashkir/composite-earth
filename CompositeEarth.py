@@ -5,8 +5,6 @@ import sys
 from urllib.request import urlopen
 import json
 
-# Save 
-#"C:\Users\owner\Documents\webm\Binaries\Win64\ffmpeg.exe" -r 30 -i "C:\Users\owner\Desktop\SatelliteTest\src\Earth_%4d.jpg" -c:v libx264 -vf "fps=25,format=yuv420p" C:\Users\owner\Desktop\SatelliteTest\out.mp4
 def main():
 	path = os.path.dirname(sys.argv[0])
 	if len(sys.argv) > 1:
